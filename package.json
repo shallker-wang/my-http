@@ -1,0 +1,14 @@
+{
+  "name": "my-http",
+  "description": "My Node http interface.",
+  "version": "0.1.0",
+  "author": "Shallker Wang <shallker.wang@profero.com>",
+  "main": "index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shallker-wang/my-http.git"
+  },
+  "dependencies": {
+    "bupper": "git://github.com/shallker-wang/bupper.git"
+  }
+}
