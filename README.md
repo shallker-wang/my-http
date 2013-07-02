@@ -8,7 +8,7 @@ My Node http interface.
 npm install git://github.com/shallker-wang/my-http.git
 ```
 
-## Add to dependencies
+### Add to package dependencies:
 ```json
 {
   "dependencies": {
