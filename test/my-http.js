@@ -18,10 +18,11 @@ describe('MyHttp.set', function() {
   })
 
   it('should parse the set of url', function() {
-    myHttp.set('url', 'http://www.my-app.com:8080/user/add');
+    myHttp.set('url', 'http://www.my-app.com:8080/user/add?user=shallker');
     myHttp.option.protocol.should.eql('http:');
     myHttp.option.hostname.should.eql('www.my-app.com');
     myHttp.option.host.should.eql('www.my-app.com:8080');
+    myHttp.option.query.should.eql('user=shallker');
     myHttp.option.path.should.eql('/user/add');
     myHttp.option.port.should.eql('8080');
   })
