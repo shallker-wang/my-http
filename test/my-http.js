@@ -1,7 +1,4 @@
-var assert = require('assert'),
-    MyHttp = require('../lib/my-http'),
-    should = require('should');
-
+var MyHttp = require('../lib/my-http');
 
 describe('MyHttp.constructor', function() {
   var myHttp = new MyHttp();
