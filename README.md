@@ -4,11 +4,12 @@ my-http
 My Node http interface.
 
 ## Installation
+Use npm:
 ```shell
 npm install git://github.com/shallker-wang/my-http.git
 ```
 
-### Add to package dependencies:
+Or add to your package dependencies:
 ```json
 {
   "dependencies": {
@@ -72,4 +73,4 @@ http.request();
 ```
 
 ## Todo
-* write a test
+* ~~write a test~~
