@@ -3,6 +3,9 @@ my-http
 
 My Node http interface.
 
+[![Build Status](https://drone.io/github.com/shallker-wang/my-http/status.png)](https://drone.io/github.com/shallker-wang/my-http/latest)
+
+
 ## Installation
 Use npm:
 ```shell
