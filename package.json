@@ -10,5 +10,8 @@
   },
   "dependencies": {
     "bupper": "git://github.com/shallker-wang/bupper.git"
+  },
+  "scripts": {
+    "test": "mocha -r should"
   }
 }
